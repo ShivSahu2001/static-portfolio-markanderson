@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 180vh;
+    background-color: #424141;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    background-color: #5897da;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1%;
+    padding-right: 4%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* hero section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.left-main-section{
+    padding-right: 5%;
+}
+
+span img{
+    width: 2vw;
+    height: 4vh;
+}
+
+.left-main-section, .headeing-3
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.left-main-section h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.dev{
+    color: greenyellow;
+}
+
+.right-main-section img{
+    width: 35vw;
+    height: 40vh;
+}
+
+/* project-section */
+section span{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 4%;
+   font-size: 2.3rem;
+   font-weight: 600;
+   text-decoration: underline;
+   text-decoration-color: #5897da;
+   
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-list-1{
+    text-align: center;
+}
+.project-list-2{
+    text-align: center;
+}
+.project-list-3{
+    text-align: center;
+}
+.project-list-4{
+    text-align: center;
+}
+
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+footer h2{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-decoration-color: #5897da;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3%;
+    font-size: 2rem;
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+    main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.left-main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.right-main-section{
+    margin-top: 5%;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+}
